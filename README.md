@@ -30,6 +30,13 @@ pip install -r requirement.txt   ###tensorflow 可能无法安装
 pip install --upgrade pip   ##升级pip
 pip install -U tensorflow -i https://pypi.tuna.tsinghua.edu.cn/simple
 
+依赖
+pip install tensorflow-addons -i https://pypi.douban.com/simple
+pip install pandas -i https://pypi.douban.com/simple
+pip install lxml -i https://pypi.douban.com/simple
+pip install bs4 -i https://pypi.douban.com/simple
+pip install flask -i https://pypi.douban.com/simple
+
 
 若安装存在问题，可手动依次安装，具体安装库产生问题，需自行解决
 
